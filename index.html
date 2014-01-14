@@ -1,0 +1,37 @@
+<!-- Dit is index.html, hierin staat de basis van onze webpagina -->
+<html>
+	<head>
+		<!-- Dit is de titel van de pagina -->
+		<title></title>
+
+		<!-- Hier laden we het bestand stijl.css in met de opmaak van onze pagina -->
+		<link rel="stylesheet" href="stijl.css"></link>
+
+		<!-- Hier laden we jQuery in zodat we coole dingen kunnen maken, zie http://api.jquery.com -->
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<!-- Hier laden we het bestand javascript.js in met speciale code die we uitvoeren bij klikken enz -->
+		<script src="javascript.js"></script>
+	</head>
+
+	<!-- Hier begint wat je ziet op je scherm -->
+	<body>
+		<!-- P is een paragraaf -->
+		<p>
+			<!-- a is een link, deze gaat naar Google, de </a> sluit de link af, 
+				 alles ertussen is de tekst op de link  -->
+			<a href="http://www.vathorstcollege.nl">Naar Vathorst website</a>
+			<a href="http://moodle.vathorstcollege.nl">Naar Moodle</a>
+			<!-- Deze link heeft ook een id="", hiermee kunnen we de link terug vinden in ons javascript.js bestand -->
+			<a href="https://vathorst.swp.nl/5.6.13/magister.aspx" id="magister-link">Naar Magister</a>
+		</p>
+
+		<p>
+			<!-- Twitter button hier plakken -->
+		</p>
+
+		<p>
+			<!-- img is een image (plaatje dus), de src="" geeft aan waar het plaatje op internet staat, de id="" is net als bij de link boven. Op die manier kunnen we hem terug vinden -->
+			<img src="http://data.boomerang.nl/o/ottocar/image/huiswerk/s600/huiswerk.PNG" id="plaatje" />
+		</p>
+	</body>
+</html>

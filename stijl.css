@@ -1,0 +1,12 @@
+/* Dit bestand bevat de opmaak en stijl van de pagina zoals kleurtjes enz */
+body {
+	background: url(http://pnmedia.gamespy.com/screenshots/pcnc/20921664.jpg) repeat center center;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: pink;
+}
